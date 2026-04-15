@@ -1,0 +1,40 @@
+@font-face {
+    font-family: satoshimedium;
+    src: url(/Satoshi-Medium.otf);
+  }
+
+html {
+    font-size: 20px;
+    font-family: satoshimedium;
+}
+
+body {
+    background-color: #294487;
+    /*font-family: "Papyrus";*/
+    color: #ffffff;
+    display: flex;
+    margin-top: 6rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem;
+}
+
+section {
+    
+    text-align: center;
+}
+
+a {
+    color: #ffffff;
+}
+
+a:hover {
+    color: #F5D118;
+}
+
+img {
+    max-width: 20rem;
+    height: auto;
+    border-radius: 0.5rem;
+}
+
