@@ -9,9 +9,13 @@ html {
 }
 
 body {
-    background-color: #294487;
-    /*font-family: "Papyrus";*/
-    color: #ffffff;
+    background-image: url("Echoes_900x1600.png");
+    background-size: cover;        /* fills the screen */
+    background-position: center;   /* centers the image */
+    background-repeat: no-repeat;  /* prevents tiling */
+    height: 100vh;                 /* full viewport height */
+    margin: 0;
+    color: #294487;
     display: flex;
     margin-top: 6rem;
     align-items: center;
@@ -25,11 +29,11 @@ section {
 }
 
 a {
-    color: #ffffff;
+    color: #294487;
 }
 
 a:hover {
-    color: #F5D118;
+    color: #f54118;
 }
 
 img {
